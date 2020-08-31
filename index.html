@@ -3,18 +3,72 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Stripe Setup</title>
+    <title>Stripe Submenus</title>
     <!-- font-awesome -->
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css"
-    />
+    <script src="https://kit.fontawesome.com/f9ca3f789e.js" crossorigin="anonymous"></script>
 
     <!-- stylesheet -->
     <link rel="stylesheet" href="styles.css" />
   </head>
   <body>
-    <h2>stripe submenu</h2>
+    <!-- navbar -->
+    <nav class="nav">
+      <div class="nav-center">
+
+        <!-- nav header -->
+        <div class="nav-header">
+          <img src="./images/logo.svg" alt="logo" class="nav-logo">
+          <button class="btn toggle-btn">
+            <i class="fas fa-bars"></i>
+          </button>
+        </div>
+
+        <!-- nav links -->
+        <ul class="nav-links">
+          <li>
+            <button class="link-btn">products</button>
+          </li>
+          <li>
+            <button class="link-btn">developers</button>
+          </li>
+          <li>
+            <button class="link-btn">company</button>
+          </li>
+        </ul>
+
+        <!-- sign in button -->
+        <button class="btn signin-btn">Sign in</button>
+      </div>
+    </nav>
+
+    <!-- hero -->
+    <section class="hero">
+      <div class="hero-center">
+        <article class="hero-info">
+          <h1>Payments infrastructure<br />for the internet</h1>
+          <p>
+            Millions of companies of all sizes—from startups to Fortune 500s—use
+            Stripe’s software and APIs to accept payments, send payouts, and
+            manage their businesses online.
+          </p>
+        </article>
+        <article class="hero-images">
+          <img src="./images/phone.svg" alt="phone" class="phone-img">
+        </article>
+      </div>
+    </section>
+
+    <!-- sidebar -->
+    <div class="sidebar-wrapper">
+      <aside class="sidebar">
+        <button class="close-btn">
+          <i class="fas fa-times"></i>
+        </button>
+        <div class="sidebar-links">
+          hello there
+        </div>
+      </aside>
+    </div>
     <script type="module" src="app.js"></script>
   </body>
 </html>
